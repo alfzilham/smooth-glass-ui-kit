@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Glass UI Kit</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="kit-wrapper">
+
+    <!-- Header -->
+    <div class="kit-header">
+      <h1>Component Library</h1>
+      <h2>Liquid <span>Glass</span> UI Kit</h2>
+    </div>
+    <div class="kit-divider"></div>
+
+    <!-- ── SECTION 1: Buttons ── -->
+    <div class="component-section">
+      <div class="section-label">Buttons &amp; Actions</div>
+      <div class="action-row float-shadow">
+        <button class="btn-primary">
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+          Create workspace
+        </button>
+        <div class="icon-btn-group">
+          <button class="icon-btn">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0V14a1 1 0 00-1-1h-2a1 1 0 00-1 1v5m6 0H9" />
+            </svg>
+            <div class="glass-rainbow"></div>
+          </button>
+          <button class="icon-btn">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="7" height="7" rx="1" />
+              <rect x="14" y="3" width="7" height="7" rx="1" />
+              <rect x="3" y="14" width="7" height="7" rx="1" />
+              <rect x="14" y="14" width="7" height="7" rx="1" />
+            </svg>
+            <div class="glass-rainbow"></div>
+          </button>
+          <button class="icon-btn accent" style="position:relative;">
+            <svg width="17" height="17" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path
+                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+            </svg>
+            <span class="badge"></span>
+            <div class="glass-rainbow"></div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SECTION 2: Search Bars ── -->
+    <div class="component-section">
+      <div class="section-label">Search &amp; Input</div>
+      <div class="float-shadow">
+        <div class="search-wrap" style="margin-bottom:12px;">
+          <span class="search-icon-left">
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+          </span>
+          <input class="search-bar with-left" type="text" placeholder="Search projects...">
+          <button class="search-action blue">
+            <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
+          </button>
+        </div>
+        <div class="search-wrap">
+          <span class="search-icon-left" style="color:#b0bec5;">
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+          </span>
+          <input class="search-bar with-left" type="text" placeholder="Search projections" value="">
+          <button class="search-action check">✓</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SECTION 3: Toolbar + Toggle ── -->
+    <div class="component-section">
+      <div class="section-label">Toolbar &amp; Controls</div>
+      <div class="toolbar-row float-shadow">
+        <div class="glass toolbar">
+          <button class="toolbar-btn active">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0V14a1 1 0 00-1-1h-2a1 1 0 00-1 1v5m6 0H9" />
+            </svg>
+          </button>
+          <div class="toolbar-divider"></div>
+          <button class="toolbar-btn">
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="7" height="7" rx="0.5" />
+              <rect x="14" y="3" width="7" height="7" rx="0.5" />
+              <rect x="3" y="14" width="7" height="7" rx="0.5" />
+              <rect x="14" y="14" width="7" height="7" rx="0.5" />
+            </svg>
+          </button>
+          <button class="toolbar-btn">
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+              <rect x="2" y="3" width="20" height="3" rx="1" />
+              <rect x="2" y="10.5" width="20" height="3" rx="1" />
+              <rect x="2" y="18" width="20" height="3" rx="1" />
+            </svg>
+          </button>
+          <div class="toolbar-divider"></div>
+          <button class="toolbar-btn" style="color:#f87171;">
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+          <div class="glass-rainbow"></div>
+        </div>
+
+        <div class="glass switch-wrap">
+          <span class="switch-label">Switch</span>
+          <label class="toggle">
+            <input type="checkbox" checked>
+            <span class="toggle-track"></span>
+          </label>
+          <div class="glass-rainbow"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SECTION 4: Tabs + Modal ── -->
+    <div class="component-section">
+      <div class="section-label">Tabs &amp; Modal</div>
+      <div class="mid-row float-shadow">
+        <div class="glass tabs-card">
+          <div class="tab-select">
+            <span>Tabs</span>
+            <div class="tab-arrow"></div>
+          </div>
+          <div class="glass-rainbow"></div>
+        </div>
+        <div class="glass modal-card">
+          <span class="modal-label">Modal</span>
+          <div class="glass-rainbow"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SECTION 5: Cards ── -->
+    <div class="component-section">
+      <div class="section-label">Cards</div>
+      <div class="card-row float-shadow" style="position:relative;padding-bottom:14px;">
+        <!-- Plain card -->
+        <div class="glass base-card plain-card glow-blue">
+          <span class="card-label">Card</span>
+          <div class="glass-rainbow"></div>
+        </div>
+
+        <!-- Invite member card -->
+        <div class="glass base-card invite-card glow-blue" style="position:relative;">
+          <span class="card-label">Invite member</span>
+          <button class="btn-upgrade">Upgrade plan</button>
+          <div class="glass-rainbow"></div>
+        </div>
+
+        <!-- Floating label -->
+        <div class="glow-tag">
+          <span class="glow-dot"></span>
+          Glass UI • Live
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SECTION 6: Status Pills ── -->
+    <div class="component-section">
+      <div class="section-label">Badges &amp; Status</div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <span class="status-pill">
+          <svg width="7" height="7" fill="currentColor" viewBox="0 0 8 8">
+            <circle cx="4" cy="4" r="4" />
+          </svg>
+          Active
+        </span>
+        <span class="status-pill"
+          style="background:linear-gradient(135deg,rgba(52,211,153,0.85),rgba(16,185,129,0.9));box-shadow:0 2px 8px rgba(52,211,153,0.3);">
+          <svg width="7" height="7" fill="currentColor" viewBox="0 0 8 8">
+            <circle cx="4" cy="4" r="4" />
+          </svg>
+          Connected
+        </span>
+        <span class="status-pill"
+          style="background:linear-gradient(135deg,rgba(251,191,36,0.9),rgba(245,158,11,0.9));box-shadow:0 2px 8px rgba(251,191,36,0.3);">
+          <svg width="7" height="7" fill="currentColor" viewBox="0 0 8 8">
+            <circle cx="4" cy="4" r="4" />
+          </svg>
+          Pending
+        </span>
+        <span class="status-pill"
+          style="background:linear-gradient(135deg,rgba(248,113,113,0.85),rgba(239,68,68,0.9));box-shadow:0 2px 8px rgba(239,68,68,0.3);">
+          <svg width="7" height="7" fill="currentColor" viewBox="0 0 8 8">
+            <circle cx="4" cy="4" r="4" />
+          </svg>
+          Error
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
